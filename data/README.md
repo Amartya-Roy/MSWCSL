@@ -2,17 +2,8 @@
 
 Simulation draws and dataset acquisition instructions.
 
-## Simulation archives
-
-| File | Contents | Size |
-|---|---|---|
-| `independent_v5_part1.zip` | Draws 1–2680 of the persistence + cancellation study | 54 MB |
-| `independent_v5_part2.zip` | Draws 2681–5360 of the persistence + cancellation study | 53 MB |
-| `selection_aware_v1.zip` | 4644 draws: null/sparse selection study | 3 MB |
-| `review_diagnostics_v2.zip` | 643 draws: screening diagnostics | 6 MB |
-
 Summary CSVs and JSONs (`cells.csv`, `summary.json`, `paired.csv`,
-`matched.csv`) are included directly alongside the archives.
+`matched.csv`) are included directly 
 
 ## Acquiring real benchmark datasets
 

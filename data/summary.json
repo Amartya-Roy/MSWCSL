@@ -1,0 +1,5669 @@
+{
+  "series": 4640,
+  "rows": 41760,
+  "summary": [
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.55,
+      "FWER_CI": [
+        0.39829091798932054,
+        0.6929469218909508
+      ],
+      "TPR": 0.8978451307856679,
+      "F1": 0.9175118124694978,
+      "reversed_fp": 0.45,
+      "valid_order": 0.425
+    },
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.5,
+      "FWER_CI": [
+        0.35199526933465386,
+        0.6480047306653461
+      ],
+      "TPR": 0.8782055620210991,
+      "F1": 0.9059016458850581,
+      "reversed_fp": 0.45,
+      "valid_order": 0.425
+    },
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.45,
+      "FWER_CI": [
+        0.3070530781090492,
+        0.6017090820106794
+      ],
+      "TPR": 0.7765613370005953,
+      "F1": 0.8500932183092047,
+      "reversed_fp": 0.475,
+      "valid_order": 0.425
+    },
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.575,
+      "FWER_CI": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "TPR": 0.8909777897933269,
+      "F1": 0.9117489415861385,
+      "reversed_fp": 0.45,
+      "valid_order": 0.425
+    },
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.45,
+      "FWER_CI": [
+        0.3070530781090492,
+        0.6017090820106794
+      ],
+      "TPR": 0.8645146769790312,
+      "F1": 0.8995418157345638,
+      "reversed_fp": 0.475,
+      "valid_order": 0.425
+    },
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.3,
+      "FWER_CI": [
+        0.18074845229746528,
+        0.45430018818144935
+      ],
+      "TPR": 0.5847179435547403,
+      "F1": 0.7226071865896511,
+      "reversed_fp": 0.275,
+      "valid_order": 0.35
+    },
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.175,
+      "FWER_CI": [
+        0.0874541374603592,
+        0.31949990331787714
+      ],
+      "TPR": 0.927471542665916,
+      "F1": 0.9554158775754662,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.1,
+      "FWER_CI": [
+        0.03957952868260638,
+        0.23051775227522298
+      ],
+      "TPR": 0.8130137280487343,
+      "F1": 0.8915087812146828,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 18,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.025,
+      "FWER_CI": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "TPR": 0.6236762159054358,
+      "F1": 0.763180576394424,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.5,
+      "FWER_CI": [
+        0.35199526933465386,
+        0.6480047306653461
+      ],
+      "TPR": 0.12459881752601987,
+      "F1": 0.21552369890940398,
+      "reversed_fp": 0.575,
+      "valid_order": 0.45
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.6,
+      "FWER_CI": [
+        0.44595893660346186,
+        0.7365167431570808
+      ],
+      "TPR": 0.11838975172708739,
+      "F1": 0.20364441710356845,
+      "reversed_fp": 0.525,
+      "valid_order": 0.45
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.5,
+      "FWER_CI": [
+        0.35199526933465386,
+        0.6480047306653461
+      ],
+      "TPR": 0.0937701034585477,
+      "F1": 0.16717879628818136,
+      "reversed_fp": 0.525,
+      "valid_order": 0.45
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.575,
+      "FWER_CI": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "TPR": 0.12107773785233227,
+      "F1": 0.20869318771794632,
+      "reversed_fp": 0.65,
+      "valid_order": 0.45
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.525,
+      "FWER_CI": [
+        0.3749736210669248,
+        0.670645298873211
+      ],
+      "TPR": 0.11780519323565963,
+      "F1": 0.20520845470752969,
+      "reversed_fp": 0.625,
+      "valid_order": 0.45
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.35,
+      "FWER_CI": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "TPR": 0.05150272607103949,
+      "F1": 0.0953578748564895,
+      "reversed_fp": 0.3,
+      "valid_order": 0.275
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.125,
+      "FWER_CI": [
+        0.05459500250945401,
+        0.261121198388511
+      ],
+      "TPR": 0.13450983448071668,
+      "F1": 0.2332961644783736,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.025,
+      "FWER_CI": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "TPR": 0.10143144723346717,
+      "F1": 0.18147396893215006,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 19,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "TPR": 0.06260930278285395,
+      "F1": 0.11581256309197152,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.55,
+      "FWER_CI": [
+        0.39829091798932054,
+        0.6929469218909508
+      ],
+      "TPR": 0.7885747333095215,
+      "F1": 0.8524088470174866,
+      "reversed_fp": 0.15,
+      "valid_order": 0.6
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.7,
+      "FWER_CI": [
+        0.5456998118185507,
+        0.8192515477025347
+      ],
+      "TPR": 0.7418607507472318,
+      "F1": 0.8066270933621233,
+      "reversed_fp": 0.2,
+      "valid_order": 0.6
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.325,
+      "FWER_CI": [
+        0.200845022317827,
+        0.47982253810122333
+      ],
+      "TPR": 0.6916764306908,
+      "F1": 0.7539887698107133,
+      "reversed_fp": 0.3,
+      "valid_order": 0.6
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.65,
+      "FWER_CI": [
+        0.49505880837257693,
+        0.7786547112682372
+      ],
+      "TPR": 0.8020539588601945,
+      "F1": 0.851054954329547,
+      "reversed_fp": 0.3,
+      "valid_order": 0.6
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.7,
+      "FWER_CI": [
+        0.5456998118185507,
+        0.8192515477025347
+      ],
+      "TPR": 0.6394842799070141,
+      "F1": 0.7353351870308689,
+      "reversed_fp": 0.1,
+      "valid_order": 0.6
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.375,
+      "FWER_CI": [
+        0.24222979167233266,
+        0.5296756086269889
+      ],
+      "TPR": 0.4170894963298231,
+      "F1": 0.5632256369380607,
+      "reversed_fp": 0.15,
+      "valid_order": 0.5
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.35,
+      "FWER_CI": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "TPR": 0.8065890357226542,
+      "F1": 0.874215308077107,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 0.7050900645659361,
+      "F1": 0.7768157482399458,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 20,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.175,
+      "FWER_CI": [
+        0.0874541374603592,
+        0.31949990331787714
+      ],
+      "TPR": 0.41937147648775247,
+      "F1": 0.5721753583757136,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.6,
+      "FWER_CI": [
+        0.44595893660346186,
+        0.7365167431570808
+      ],
+      "TPR": 0.09703941216644138,
+      "F1": 0.1704453008591961,
+      "reversed_fp": 0.55,
+      "valid_order": 0.4
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.675,
+      "FWER_CI": [
+        0.5201774618987768,
+        0.799154977682173
+      ],
+      "TPR": 0.09525835938579622,
+      "F1": 0.1672025928211769,
+      "reversed_fp": 0.45,
+      "valid_order": 0.4
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.5,
+      "FWER_CI": [
+        0.35199526933465386,
+        0.6480047306653461
+      ],
+      "TPR": 0.07803167255350589,
+      "F1": 0.13973476343830776,
+      "reversed_fp": 0.65,
+      "valid_order": 0.4
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.825,
+      "FWER_CI": [
+        0.6805000966821229,
+        0.9125458625396408
+      ],
+      "TPR": 0.10479769671332964,
+      "F1": 0.18061100191738136,
+      "reversed_fp": 0.675,
+      "valid_order": 0.4
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.65,
+      "FWER_CI": [
+        0.49505880837257693,
+        0.7786547112682372
+      ],
+      "TPR": 0.08978383356958339,
+      "F1": 0.15957362469786732,
+      "reversed_fp": 0.2,
+      "valid_order": 0.4
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.3,
+      "FWER_CI": [
+        0.18074845229746528,
+        0.45430018818144935
+      ],
+      "TPR": 0.049918841018484886,
+      "F1": 0.09310182495312457,
+      "reversed_fp": 0.125,
+      "valid_order": 0.3
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.10347259320970466,
+      "F1": 0.18417548469988412,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "TPR": 0.08726079065154187,
+      "F1": 0.157323490293254,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 21,
+      "study": "persistence",
+      "kind": null,
+      "T": 200,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.15,
+      "FWER_CI": [
+        0.07061187717320358,
+        0.2907232436648971
+      ],
+      "TPR": 0.05662750835263693,
+      "F1": 0.10549396153123883,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.225,
+      "FWER_CI": [
+        0.12316091323540743,
+        0.37503096742310027
+      ],
+      "TPR": 0.9876892551892553,
+      "F1": 0.9797740021674324,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.9876892551892553,
+      "F1": 0.9780606680396087,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.225,
+      "FWER_CI": [
+        0.12316091323540743,
+        0.37503096742310027
+      ],
+      "TPR": 0.9876892551892553,
+      "F1": 0.9815727999460634,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.9886507936507936,
+      "F1": 0.9762061025157525,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.175,
+      "FWER_CI": [
+        0.0874541374603592,
+        0.31949990331787714
+      ],
+      "TPR": 0.9876892551892553,
+      "F1": 0.9823129381670581,
+      "reversed_fp": 0.175,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.35,
+      "FWER_CI": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "TPR": 0.9468413996548373,
+      "F1": 0.9519378647445029,
+      "reversed_fp": 0.4,
+      "valid_order": 0.625
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.075,
+      "FWER_CI": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "TPR": 0.9990384615384615,
+      "F1": 0.9976152772596002,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "TPR": 0.9981763925729442,
+      "F1": 0.9977322363239276,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 22,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "TPR": 0.9769628208581551,
+      "F1": 0.9868864689669385,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.2,
+      "FWER_CI": [
+        0.10499989725437704,
+        0.347573063463995
+      ],
+      "TPR": 0.289303315828874,
+      "F1": 0.44146625357005187,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.5,
+      "FWER_CI": [
+        0.35199526933465386,
+        0.6480047306653461
+      ],
+      "TPR": 0.27296605484842285,
+      "F1": 0.4183027412686532,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.2,
+      "FWER_CI": [
+        0.10499989725437704,
+        0.347573063463995
+      ],
+      "TPR": 0.2012706754867784,
+      "F1": 0.32967736381264034,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.425,
+      "FWER_CI": [
+        0.28509392559950375,
+        0.5780493145800892
+      ],
+      "TPR": 0.2861670164571339,
+      "F1": 0.43481068773697995,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.2,
+      "FWER_CI": [
+        0.10499989725437704,
+        0.347573063463995
+      ],
+      "TPR": 0.273381385959324,
+      "F1": 0.422538631223054,
+      "reversed_fp": 0.175,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.375,
+      "FWER_CI": [
+        0.24222979167233266,
+        0.5296756086269889
+      ],
+      "TPR": 0.14678163143211279,
+      "F1": 0.2495070594369154,
+      "reversed_fp": 0.45,
+      "valid_order": 0.525
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.025,
+      "FWER_CI": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "TPR": 0.2830830548932325,
+      "F1": 0.4369200301028263,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 0.19881801462840235,
+      "F1": 0.3287320556178374,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 23,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 0.15824200420748488,
+      "F1": 0.26895641783948154,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.325,
+      "FWER_CI": [
+        0.200845022317827,
+        0.47982253810122333
+      ],
+      "TPR": 0.88434603736813,
+      "F1": 0.910983531484337,
+      "reversed_fp": 0.15,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.575,
+      "FWER_CI": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "TPR": 0.8863634093349904,
+      "F1": 0.9017998396498801,
+      "reversed_fp": 0.075,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.225,
+      "FWER_CI": [
+        0.12316091323540743,
+        0.37503096742310027
+      ],
+      "TPR": 0.7456923615942495,
+      "F1": 0.7451710264019308,
+      "reversed_fp": 0.175,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.225,
+      "FWER_CI": [
+        0.12316091323540743,
+        0.37503096742310027
+      ],
+      "TPR": 0.913881862275438,
+      "F1": 0.9325206852992146,
+      "reversed_fp": 0.15,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.85,
+      "FWER_CI": [
+        0.709276756335103,
+        0.9293881228267964
+      ],
+      "TPR": 0.7325872553095514,
+      "F1": 0.773102961559004,
+      "reversed_fp": 0.075,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.475,
+      "FWER_CI": [
+        0.329354701126789,
+        0.6250263789330753
+      ],
+      "TPR": 0.8151514585404998,
+      "F1": 0.8615479557586945,
+      "reversed_fp": 0.325,
+      "valid_order": 0.625
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.15,
+      "FWER_CI": [
+        0.07061187717320358,
+        0.2907232436648971
+      ],
+      "TPR": 0.8927266416566288,
+      "F1": 0.9266602602136705,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.075,
+      "FWER_CI": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "TPR": 0.7551562992160818,
+      "F1": 0.7612041030451517,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 24,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.3,
+      "FWER_CI": [
+        0.18074845229746528,
+        0.45430018818144935
+      ],
+      "TPR": 0.8317305626087343,
+      "F1": 0.8873491214363105,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.425,
+      "FWER_CI": [
+        0.28509392559950375,
+        0.5780493145800892
+      ],
+      "TPR": 0.20714288645121534,
+      "F1": 0.33412048703556324,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.55,
+      "FWER_CI": [
+        0.39829091798932054,
+        0.6929469218909508
+      ],
+      "TPR": 0.21145319426494313,
+      "F1": 0.3401528067421281,
+      "reversed_fp": 0.175,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.175,
+      "FWER_CI": [
+        0.0874541374603592,
+        0.31949990331787714
+      ],
+      "TPR": 0.1411910713910109,
+      "F1": 0.23743675815898632,
+      "reversed_fp": 0.15,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.7,
+      "FWER_CI": [
+        0.5456998118185507,
+        0.8192515477025347
+      ],
+      "TPR": 0.19807764875231548,
+      "F1": 0.3187045170195362,
+      "reversed_fp": 0.2,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.75,
+      "FWER_CI": [
+        0.5980603857923197,
+        0.858128813609037
+      ],
+      "TPR": 0.18651772875528808,
+      "F1": 0.3049753800344959,
+      "reversed_fp": 0.05,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.425,
+      "FWER_CI": [
+        0.28509392559950375,
+        0.5780493145800892
+      ],
+      "TPR": 0.11988871471030467,
+      "F1": 0.20790817337463258,
+      "reversed_fp": 0.175,
+      "valid_order": 0.675
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.35,
+      "FWER_CI": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "TPR": 0.20287956306561816,
+      "F1": 0.33068883102881774,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "TPR": 0.13968889711147317,
+      "F1": 0.23709055234691429,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 25,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.25,
+      "FWER_CI": [
+        0.14187118639096302,
+        0.40193961420768026
+      ],
+      "TPR": 0.12342533489715288,
+      "F1": 0.21465490148793798,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.25,
+      "FWER_CI": [
+        0.14187118639096302,
+        0.40193961420768026
+      ],
+      "TPR": 0.9894377104377103,
+      "F1": 0.9714657203964812,
+      "reversed_fp": 0.2,
+      "valid_order": 0.8
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.25,
+      "FWER_CI": [
+        0.14187118639096302,
+        0.40193961420768026
+      ],
+      "TPR": 0.9894377104377103,
+      "F1": 0.9737979155595589,
+      "reversed_fp": 0.2,
+      "valid_order": 0.8
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.2,
+      "FWER_CI": [
+        0.10499989725437704,
+        0.347573063463995
+      ],
+      "TPR": 0.9894377104377103,
+      "F1": 0.970436939905025,
+      "reversed_fp": 0.2,
+      "valid_order": 0.8
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.9894377104377103,
+      "F1": 0.9703718418187195,
+      "reversed_fp": 0.2,
+      "valid_order": 0.8
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.25,
+      "FWER_CI": [
+        0.14187118639096302,
+        0.40193961420768026
+      ],
+      "TPR": 0.9894377104377103,
+      "F1": 0.9717557478478167,
+      "reversed_fp": 0.175,
+      "valid_order": 0.8
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.984319431786537,
+      "F1": 0.9707426318809678,
+      "reversed_fp": 0.3,
+      "valid_order": 0.725
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "TPR": 1.0,
+      "F1": 0.9987179487179487,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 1.0,
+      "F1": 1.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 26,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.075,
+      "FWER_CI": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "TPR": 1.0,
+      "F1": 0.998056597482704,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.1,
+      "FWER_CI": [
+        0.03957952868260638,
+        0.23051775227522298
+      ],
+      "TPR": 0.571736982620614,
+      "F1": 0.7224219455623176,
+      "reversed_fp": 0.075,
+      "valid_order": 0.925
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.5518669096599156,
+      "F1": 0.7030358762472209,
+      "reversed_fp": 0.075,
+      "valid_order": 0.925
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.125,
+      "FWER_CI": [
+        0.05459500250945401,
+        0.261121198388511
+      ],
+      "TPR": 0.44711662073524466,
+      "F1": 0.6122002834695086,
+      "reversed_fp": 0.075,
+      "valid_order": 0.925
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.4,
+      "FWER_CI": [
+        0.2634832568429192,
+        0.5540410633965381
+      ],
+      "TPR": 0.5814005649071602,
+      "F1": 0.7262894929358016,
+      "reversed_fp": 0.075,
+      "valid_order": 0.925
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.1,
+      "FWER_CI": [
+        0.03957952868260638,
+        0.23051775227522298
+      ],
+      "TPR": 0.5641665424375324,
+      "F1": 0.71663199525755,
+      "reversed_fp": 0.075,
+      "valid_order": 0.925
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.3,
+      "FWER_CI": [
+        0.18074845229746528,
+        0.45430018818144935
+      ],
+      "TPR": 0.2742531707655571,
+      "F1": 0.4234355368613773,
+      "reversed_fp": 0.325,
+      "valid_order": 0.7
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.025,
+      "FWER_CI": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "TPR": 0.5704557255614274,
+      "F1": 0.7233167904466681,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.075,
+      "FWER_CI": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "TPR": 0.4339663104365882,
+      "F1": 0.600615825422797,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 27,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.6,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 0.27062522865939537,
+      "F1": 0.4232497916497778,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.075,
+      "FWER_CI": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "TPR": 0.8812711120223907,
+      "F1": 0.9132332459988689,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.45,
+      "FWER_CI": [
+        0.3070530781090492,
+        0.6017090820106794
+      ],
+      "TPR": 0.9003331735979131,
+      "F1": 0.8977295457360108,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 0.7906605894105894,
+      "F1": 0.8032193427095976,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "TPR": 0.9112724264226821,
+      "F1": 0.9352551604079119,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.825,
+      "FWER_CI": [
+        0.6805000966821229,
+        0.9125458625396408
+      ],
+      "TPR": 0.7577702861779789,
+      "F1": 0.7522832135289603,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.35,
+      "FWER_CI": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "TPR": 0.8873528412349081,
+      "F1": 0.9119601736572525,
+      "reversed_fp": 0.075,
+      "valid_order": 0.9
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "TPR": 0.886952930204209,
+      "F1": 0.919081097334525,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 0.7951566368414195,
+      "F1": 0.8075767415831254,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 28,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.8893344805592248,
+      "F1": 0.9170320418953567,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.25,
+      "FWER_CI": [
+        0.14187118639096302,
+        0.40193961420768026
+      ],
+      "TPR": 0.42178014230301797,
+      "F1": 0.5787403793704469,
+      "reversed_fp": 0.0,
+      "valid_order": 0.975
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.525,
+      "FWER_CI": [
+        0.3749736210669248,
+        0.670645298873211
+      ],
+      "TPR": 0.4375661203103715,
+      "F1": 0.5946626450453638,
+      "reversed_fp": 0.0,
+      "valid_order": 0.975
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.075,
+      "FWER_CI": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "TPR": 0.32999431931209183,
+      "F1": 0.47483906693864764,
+      "reversed_fp": 0.0,
+      "valid_order": 0.975
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.75,
+      "FWER_CI": [
+        0.5980603857923197,
+        0.858128813609037
+      ],
+      "TPR": 0.42631690239022824,
+      "F1": 0.5790789653715388,
+      "reversed_fp": 0.0,
+      "valid_order": 0.975
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.825,
+      "FWER_CI": [
+        0.6805000966821229,
+        0.9125458625396408
+      ],
+      "TPR": 0.38325708891686217,
+      "F1": 0.5329954151684511,
+      "reversed_fp": 0.0,
+      "valid_order": 0.975
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.45,
+      "FWER_CI": [
+        0.3070530781090492,
+        0.6017090820106794
+      ],
+      "TPR": 0.2154279974187585,
+      "F1": 0.3442975392760723,
+      "reversed_fp": 0.075,
+      "valid_order": 0.85
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.4121206810805442,
+      "F1": 0.5700367115377164,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.075,
+      "FWER_CI": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "TPR": 0.315379351489521,
+      "F1": 0.4593101421152387,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 29,
+      "study": "persistence",
+      "kind": null,
+      "T": 1000,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.6,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.4,
+      "FWER_CI": [
+        0.2634832568429192,
+        0.5540410633965381
+      ],
+      "TPR": 0.21127665629682046,
+      "F1": 0.339741477677277,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.3,
+      "FWER_CI": [
+        0.18074845229746528,
+        0.45430018818144935
+      ],
+      "TPR": 0.823594580005453,
+      "F1": 0.8842743910720732,
+      "reversed_fp": 0.1,
+      "valid_order": 0.9
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.475,
+      "FWER_CI": [
+        0.329354701126789,
+        0.6250263789330753
+      ],
+      "TPR": 0.7965867204606688,
+      "F1": 0.8630786986769123,
+      "reversed_fp": 0.1,
+      "valid_order": 0.9
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.15,
+      "FWER_CI": [
+        0.07061187717320358,
+        0.2907232436648971
+      ],
+      "TPR": 0.747748116359319,
+      "F1": 0.8406929718782639,
+      "reversed_fp": 0.15,
+      "valid_order": 0.9
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.6,
+      "FWER_CI": [
+        0.44595893660346186,
+        0.7365167431570808
+      ],
+      "TPR": 0.8043004314420219,
+      "F1": 0.8596641559749856,
+      "reversed_fp": 0.125,
+      "valid_order": 0.9
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.575,
+      "FWER_CI": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "TPR": 0.7251836118008214,
+      "F1": 0.810785769806896,
+      "reversed_fp": 0.075,
+      "valid_order": 0.9
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.35,
+      "FWER_CI": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "TPR": 0.5424523184033803,
+      "F1": 0.6796278487436351,
+      "reversed_fp": 0.225,
+      "valid_order": 0.675
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.25,
+      "FWER_CI": [
+        0.14187118639096302,
+        0.40193961420768026
+      ],
+      "TPR": 0.8127310093026878,
+      "F1": 0.8860567596975152,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.025,
+      "FWER_CI": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "TPR": 0.7400219556178804,
+      "F1": 0.8460667715429588,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 30,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.3,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.1,
+      "FWER_CI": [
+        0.03957952868260638,
+        0.23051775227522298
+      ],
+      "TPR": 0.5338246428382046,
+      "F1": 0.6876453252246029,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.12094330534212024,
+      "F1": 0.2107212947267721,
+      "reversed_fp": 0.275,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.5,
+      "FWER_CI": [
+        0.35199526933465386,
+        0.6480047306653461
+      ],
+      "TPR": 0.1200984122369555,
+      "F1": 0.2088199602254875,
+      "reversed_fp": 0.175,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.225,
+      "FWER_CI": [
+        0.12316091323540743,
+        0.37503096742310027
+      ],
+      "TPR": 0.11474571512344585,
+      "F1": 0.2018513045143274,
+      "reversed_fp": 0.275,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.6,
+      "FWER_CI": [
+        0.44595893660346186,
+        0.7365167431570808
+      ],
+      "TPR": 0.12497766871714973,
+      "F1": 0.2139644569402551,
+      "reversed_fp": 0.275,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.425,
+      "FWER_CI": [
+        0.28509392559950375,
+        0.5780493145800892
+      ],
+      "TPR": 0.10915009275179999,
+      "F1": 0.19187668011328202,
+      "reversed_fp": 0.125,
+      "valid_order": 0.825
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.4,
+      "FWER_CI": [
+        0.2634832568429192,
+        0.5540410633965381
+      ],
+      "TPR": 0.1029665275363818,
+      "F1": 0.18258205107167985,
+      "reversed_fp": 0.275,
+      "valid_order": 0.625
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.125,
+      "FWER_CI": [
+        0.05459500250945401,
+        0.261121198388511
+      ],
+      "TPR": 0.12143354451536234,
+      "F1": 0.2134757964424559,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.025,
+      "FWER_CI": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "TPR": 0.11722877981332333,
+      "F1": 0.20760461713434997,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 31,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.3,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.075,
+      "FWER_CI": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "TPR": 0.10762391538338605,
+      "F1": 0.19194675808350298,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.3,
+      "FWER_CI": [
+        0.18074845229746528,
+        0.45430018818144935
+      ],
+      "TPR": 0.8423142112622948,
+      "F1": 0.8695934008963236,
+      "reversed_fp": 0.125,
+      "valid_order": 0.75
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.55,
+      "FWER_CI": [
+        0.39829091798932054,
+        0.6929469218909508
+      ],
+      "TPR": 0.844508211642794,
+      "F1": 0.8600488178952321,
+      "reversed_fp": 0.125,
+      "valid_order": 0.75
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.125,
+      "FWER_CI": [
+        0.05459500250945401,
+        0.261121198388511
+      ],
+      "TPR": 0.7215420003813883,
+      "F1": 0.7156574869265407,
+      "reversed_fp": 0.125,
+      "valid_order": 0.75
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.275,
+      "FWER_CI": [
+        0.16108016247667337,
+        0.42834955806210573
+      ],
+      "TPR": 0.899194912083213,
+      "F1": 0.9158754013895296,
+      "reversed_fp": 0.175,
+      "valid_order": 0.75
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.875,
+      "FWER_CI": [
+        0.738878801611489,
+        0.945404997490546
+      ],
+      "TPR": 0.6932982441535073,
+      "F1": 0.7174101103771922,
+      "reversed_fp": 0.05,
+      "valid_order": 0.75
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.475,
+      "FWER_CI": [
+        0.329354701126789,
+        0.6250263789330753
+      ],
+      "TPR": 0.8018424853178857,
+      "F1": 0.8346463648647117,
+      "reversed_fp": 0.275,
+      "valid_order": 0.625
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.225,
+      "FWER_CI": [
+        0.12316091323540743,
+        0.37503096742310027
+      ],
+      "TPR": 0.8449170628189506,
+      "F1": 0.8839761424113748,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 0.7288899868247695,
+      "F1": 0.7323822463768116,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 32,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "spike",
+      "s": 0.9,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.3,
+      "FWER_CI": [
+        0.18074845229746528,
+        0.45430018818144935
+      ],
+      "TPR": 0.8247744575218832,
+      "F1": 0.8722440009593326,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.475,
+      "FWER_CI": [
+        0.329354701126789,
+        0.6250263789330753
+      ],
+      "TPR": 0.34814636207573296,
+      "F1": 0.4903658606403344,
+      "reversed_fp": 0.125,
+      "valid_order": 0.85
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 40,
+      "FWER": 0.575,
+      "FWER_CI": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "TPR": 0.3746536280491598,
+      "F1": 0.5249644205656875,
+      "reversed_fp": 0.05,
+      "valid_order": 0.85
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.125,
+      "FWER_CI": [
+        0.05459500250945401,
+        0.261121198388511
+      ],
+      "TPR": 0.22618828058938706,
+      "F1": 0.3244408120295816,
+      "reversed_fp": 0.125,
+      "valid_order": 0.85
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 40,
+      "FWER": 0.7,
+      "FWER_CI": [
+        0.5456998118185507,
+        0.8192515477025347
+      ],
+      "TPR": 0.3620828892525184,
+      "F1": 0.5093095238007587,
+      "reversed_fp": 0.15,
+      "valid_order": 0.85
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 40,
+      "FWER": 0.7,
+      "FWER_CI": [
+        0.5456998118185507,
+        0.8192515477025347
+      ],
+      "TPR": 0.29066879831839704,
+      "F1": 0.4251108777123914,
+      "reversed_fp": 0.025,
+      "valid_order": 0.85
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "estimated",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.475,
+      "FWER_CI": [
+        0.329354701126789,
+        0.6250263789330753
+      ],
+      "TPR": 0.17062167257809596,
+      "F1": 0.2810411286986704,
+      "reversed_fp": 0.125,
+      "valid_order": 0.75
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "known",
+      "variant": "current",
+      "n": 40,
+      "FWER": 0.4,
+      "FWER_CI": [
+        0.2634832568429192,
+        0.5540410633965381
+      ],
+      "TPR": 0.3368747030778123,
+      "F1": 0.47975915934301944,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 40,
+      "FWER": 0.0,
+      "FWER_CI": [
+        0.0,
+        0.08762160119728664
+      ],
+      "TPR": 0.21970054546994894,
+      "F1": 0.3182261842056144,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 33,
+      "study": "persistence",
+      "kind": null,
+      "T": 500,
+      "a": 0.9,
+      "shape": "distributed",
+      "s": 0.9,
+      "order": "known",
+      "variant": "split",
+      "n": 40,
+      "FWER": 0.475,
+      "FWER_CI": [
+        0.329354701126789,
+        0.6250263789330753
+      ],
+      "TPR": 0.15721141804853034,
+      "F1": 0.2626374842259164,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.37,
+      "FWER_CI": [
+        0.32882226377423945,
+        0.4131600647457642
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 500,
+      "FWER": 0.33,
+      "FWER_CI": [
+        0.2902178997291812,
+        0.3723743760277467
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.064,
+      "FWER_CI": [
+        0.04569601604478943,
+        0.08895240883768415
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 500,
+      "FWER": 0.35,
+      "FWER_CI": [
+        0.3094801731446609,
+        0.39280712899380477
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 500,
+      "FWER": 0.18,
+      "FWER_CI": [
+        0.148804907912759,
+        0.21607466998263444
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.034,
+      "FWER_CI": [
+        0.02133451980853219,
+        0.053771365501634506
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.362,
+      "FWER_CI": [
+        0.32107604417818575,
+        0.40502827378920275
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.064,
+      "FWER_CI": [
+        0.04569601604478943,
+        0.08895240883768415
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 34,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 200,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.04,
+      "FWER_CI": [
+        0.026040797389777257,
+        0.060973595834850805
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.226,
+      "FWER_CI": [
+        0.191509780865554,
+        0.2646683577073766
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 500,
+      "FWER": 0.254,
+      "FWER_CI": [
+        0.21782025491518664,
+        0.2939309205918972
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.054,
+      "FWER_CI": [
+        0.03737435018105752,
+        0.07742656151064709
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 500,
+      "FWER": 0.236,
+      "FWER_CI": [
+        0.20088129547155886,
+        0.27514435629214073
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 500,
+      "FWER": 0.15,
+      "FWER_CI": [
+        0.12137595769138819,
+        0.18396108063169836
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.06,
+      "FWER_CI": [
+        0.0423483564809462,
+        0.08436106312521979
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.234,
+      "FWER_CI": [
+        0.1990046985940334,
+        0.2730514505315124
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.052,
+      "FWER_CI": [
+        0.035730265115705276,
+        0.07510114393784553
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 35,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.058,
+      "FWER_CI": [
+        0.0406837291117572,
+        0.08205618785625499
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.884,
+      "FWER_CI": [
+        0.8529581630365658,
+        0.9091863434889621
+      ],
+      "TPR": 0.669,
+      "F1": 0.7113291508823208,
+      "reversed_fp": 1.702,
+      "valid_order": 0.07
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 500,
+      "FWER": 0.848,
+      "FWER_CI": [
+        0.8138858517125613,
+        0.8768076073261983
+      ],
+      "TPR": 0.6654,
+      "F1": 0.7120845739571746,
+      "reversed_fp": 1.564,
+      "valid_order": 0.07
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.82,
+      "FWER_CI": [
+        0.7839253300173655,
+        0.851195092087241
+      ],
+      "TPR": 0.564,
+      "F1": 0.6497734720731625,
+      "reversed_fp": 1.418,
+      "valid_order": 0.07
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 500,
+      "FWER": 0.89,
+      "FWER_CI": [
+        0.8595444295965924,
+        0.9145085848433969
+      ],
+      "TPR": 0.6846,
+      "F1": 0.7195863532737136,
+      "reversed_fp": 1.718,
+      "valid_order": 0.07
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 500,
+      "FWER": 0.874,
+      "FWER_CI": [
+        0.8420322822801359,
+        0.900264711054623
+      ],
+      "TPR": 0.637,
+      "F1": 0.6936589193572165,
+      "reversed_fp": 1.612,
+      "valid_order": 0.07
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.62,
+      "FWER_CI": [
+        0.576692489073785,
+        0.6614776692154425
+      ],
+      "TPR": 0.33859999999999996,
+      "F1": 0.4618839273213886,
+      "reversed_fp": 0.822,
+      "valid_order": 0.024
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.124,
+      "FWER_CI": [
+        0.09794609113930344,
+        0.15578741288778383
+      ],
+      "TPR": 0.8678,
+      "F1": 0.9192070445722149,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.044,
+      "FWER_CI": [
+        0.02923395562860718,
+        0.06571944287232845
+      ],
+      "TPR": 0.7104000000000001,
+      "F1": 0.8207978685401287,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 36,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 200,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.018,
+      "FWER_CI": [
+        0.009498193296197078,
+        0.033851670908739286
+      ],
+      "TPR": 0.44620000000000004,
+      "F1": 0.5996732287320523,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.806,
+      "FWER_CI": [
+        0.7690603702807669,
+        0.8382735333567634
+      ],
+      "TPR": 0.572,
+      "F1": 0.627238875622366,
+      "reversed_fp": 1.202,
+      "valid_order": 0.1
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 500,
+      "FWER": 0.81,
+      "FWER_CI": [
+        0.7733002877435668,
+        0.8419726211702709
+      ],
+      "TPR": 0.6167999999999999,
+      "F1": 0.6504017613785685,
+      "reversed_fp": 1.132,
+      "valid_order": 0.1
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.82,
+      "FWER_CI": [
+        0.7839253300173655,
+        0.851195092087241
+      ],
+      "TPR": 0.513,
+      "F1": 0.584803480295,
+      "reversed_fp": 1.362,
+      "valid_order": 0.1
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 500,
+      "FWER": 0.856,
+      "FWER_CI": [
+        0.8225095437017246,
+        0.8840619258896502
+      ],
+      "TPR": 0.6451999999999999,
+      "F1": 0.6554860673693127,
+      "reversed_fp": 1.376,
+      "valid_order": 0.1
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 500,
+      "FWER": 0.744,
+      "FWER_CI": [
+        0.7039870300464813,
+        0.7802922918082812
+      ],
+      "TPR": 0.5802,
+      "F1": 0.6481102385029157,
+      "reversed_fp": 0.976,
+      "valid_order": 0.1
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.544,
+      "FWER_CI": [
+        0.5001738756211381,
+        0.5871551824182454
+      ],
+      "TPR": 0.3,
+      "F1": 0.421500007457283,
+      "reversed_fp": 0.456,
+      "valid_order": 0.034
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.058,
+      "FWER_CI": [
+        0.0406837291117572,
+        0.08205618785625499
+      ],
+      "TPR": 0.707,
+      "F1": 0.8191668063446701,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.04,
+      "FWER_CI": [
+        0.026040797389777257,
+        0.060973595834850805
+      ],
+      "TPR": 0.627,
+      "F1": 0.7612042580914098,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 37,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 200,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.036,
+      "FWER_CI": [
+        0.02289106098029272,
+        0.056184326968027755
+      ],
+      "TPR": 0.3152,
+      "F1": 0.46131614268084853,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.38,
+      "FWER_CI": [
+        0.33852233078455757,
+        0.42330751092621505
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 500,
+      "FWER": 0.28,
+      "FWER_CI": [
+        0.2424360430412755,
+        0.3209186667618076
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.054,
+      "FWER_CI": [
+        0.03737435018105752,
+        0.07742656151064709
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 500,
+      "FWER": 0.318,
+      "FWER_CI": [
+        0.27870026117642177,
+        0.36007499875158333
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 500,
+      "FWER": 0.16,
+      "FWER_CI": [
+        0.13047637235016407,
+        0.19470817916369149
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.036,
+      "FWER_CI": [
+        0.02289106098029272,
+        0.056184326968027755
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.37,
+      "FWER_CI": [
+        0.32882226377423945,
+        0.4131600647457642
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.058,
+      "FWER_CI": [
+        0.0406837291117572,
+        0.08205618785625499
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 38,
+      "study": "fwer",
+      "kind": "null_iid",
+      "T": 500,
+      "a": 0.0,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.038,
+      "FWER_CI": [
+        0.024460118055830385,
+        0.05858477253064388
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.238,
+      "FWER_CI": [
+        0.2027590191807921,
+        0.2772361352210613
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 500,
+      "FWER": 0.2,
+      "FWER_CI": [
+        0.16728549897175743,
+        0.23728910530517394
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.046,
+      "FWER_CI": [
+        0.030845108370816204,
+        0.06807779276827323
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 500,
+      "FWER": 0.184,
+      "FWER_CI": [
+        0.1524894793781606,
+        0.22032910379354043
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 500,
+      "FWER": 0.148,
+      "FWER_CI": [
+        0.1195614053892054,
+        0.18180613029572734
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.034,
+      "FWER_CI": [
+        0.02133451980853219,
+        0.053771365501634506
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.216,
+      "FWER_CI": [
+        0.18216774485419415,
+        0.25416288052796754
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.05,
+      "FWER_CI": [
+        0.034093745243849435,
+        0.0727681611715476
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 39,
+      "study": "fwer",
+      "kind": "null_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.046,
+      "FWER_CI": [
+        0.030845108370816204,
+        0.06807779276827323
+      ],
+      "TPR": 0.0,
+      "F1": 0.0,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.82,
+      "FWER_CI": [
+        0.7839253300173655,
+        0.851195092087241
+      ],
+      "TPR": 0.825,
+      "F1": 0.7986978099398696,
+      "reversed_fp": 1.744,
+      "valid_order": 0.194
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 500,
+      "FWER": 0.818,
+      "FWER_CI": [
+        0.7817973646706083,
+        0.8493535547958443
+      ],
+      "TPR": 0.8248000000000001,
+      "F1": 0.7977233015344687,
+      "reversed_fp": 1.738,
+      "valid_order": 0.194
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.808,
+      "FWER_CI": [
+        0.771179624871567,
+        0.8401237814041169
+      ],
+      "TPR": 0.8236000000000001,
+      "F1": 0.8109548158934886,
+      "reversed_fp": 1.742,
+      "valid_order": 0.194
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 500,
+      "FWER": 0.826,
+      "FWER_CI": [
+        0.7903184021001322,
+        0.8567105279189358
+      ],
+      "TPR": 0.8254000000000001,
+      "F1": 0.7971995138042735,
+      "reversed_fp": 1.744,
+      "valid_order": 0.194
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 500,
+      "FWER": 0.822,
+      "FWER_CI": [
+        0.7860548114500956,
+        0.8530351132926648
+      ],
+      "TPR": 0.8248000000000002,
+      "F1": 0.8043563117279365,
+      "reversed_fp": 1.744,
+      "valid_order": 0.194
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.932,
+      "FWER_CI": [
+        0.9064790772661258,
+        0.9509334925750932
+      ],
+      "TPR": 0.74,
+      "F1": 0.755491911150425,
+      "reversed_fp": 1.948,
+      "valid_order": 0.056
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.114,
+      "FWER_CI": [
+        0.08903690099400285,
+        0.1448490898423155
+      ],
+      "TPR": 0.9996,
+      "F1": 0.9936757902661794,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.044,
+      "FWER_CI": [
+        0.02923395562860718,
+        0.06571944287232845
+      ],
+      "TPR": 0.9984,
+      "F1": 0.9968899977215767,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 40,
+      "study": "fwer",
+      "kind": "sparse_moderate",
+      "T": 500,
+      "a": 0.3,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.03,
+      "FWER_CI": [
+        0.018263213197913384,
+        0.04890366683594573
+      ],
+      "TPR": 0.947,
+      "F1": 0.9698692122463022,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.772,
+      "FWER_CI": [
+        0.7332341279039163,
+        0.8066182308849994
+      ],
+      "TPR": 0.8154000000000001,
+      "F1": 0.7409055162053164,
+      "reversed_fp": 1.622,
+      "valid_order": 0.236
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "diff",
+      "n": 500,
+      "FWER": 0.772,
+      "FWER_CI": [
+        0.7332341279039163,
+        0.8066182308849994
+      ],
+      "TPR": 0.817,
+      "F1": 0.7299869366114019,
+      "reversed_fp": 1.612,
+      "valid_order": 0.236
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.772,
+      "FWER_CI": [
+        0.7332341279039163,
+        0.8066182308849994
+      ],
+      "TPR": 0.8092,
+      "F1": 0.7403437836504998,
+      "reversed_fp": 1.676,
+      "valid_order": 0.236
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "prewhite",
+      "n": 500,
+      "FWER": 0.778,
+      "FWER_CI": [
+        0.739530218085007,
+        0.8122306486183701
+      ],
+      "TPR": 0.8208000000000001,
+      "F1": 0.7293964494894671,
+      "reversed_fp": 1.662,
+      "valid_order": 0.236
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "rawlow",
+      "n": 500,
+      "FWER": 0.714,
+      "FWER_CI": [
+        0.6728768354985485,
+        0.7518599467839072
+      ],
+      "TPR": 0.8194000000000001,
+      "F1": 0.7702553290022824,
+      "reversed_fp": 1.106,
+      "valid_order": 0.236
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "estimated",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.836,
+      "FWER_CI": [
+        0.8010053635257086,
+        0.8658710796841282
+      ],
+      "TPR": 0.6798,
+      "F1": 0.6910143578721274,
+      "reversed_fp": 1.448,
+      "valid_order": 0.096
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "current",
+      "n": 500,
+      "FWER": 0.046,
+      "FWER_CI": [
+        0.030845108370816204,
+        0.06807779276827323
+      ],
+      "TPR": 0.9832000000000001,
+      "F1": 0.9889119465329992,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "noscreen",
+      "n": 500,
+      "FWER": 0.028,
+      "FWER_CI": [
+        0.01675097472075645,
+        0.04644640267494888
+      ],
+      "TPR": 0.9766,
+      "F1": 0.986147780324251,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    },
+    {
+      "cell": 41,
+      "study": "fwer",
+      "kind": "sparse_persistent",
+      "T": 500,
+      "a": 0.9,
+      "shape": null,
+      "s": null,
+      "order": "known",
+      "variant": "split",
+      "n": 500,
+      "FWER": 0.024,
+      "FWER_CI": [
+        0.013781314655496986,
+        0.041477057463900756
+      ],
+      "TPR": 0.8288000000000002,
+      "F1": 0.9016032523376178,
+      "reversed_fp": 0.0,
+      "valid_order": 1.0
+    }
+  ],
+  "paired": [
+    {
+      "cell": 18,
+      "variant": "split",
+      "mean": -0.19490462587984675,
+      "CI": [
+        -0.2249131825693854,
+        -0.1648960691903081
+      ],
+      "simultaneous_CI": [
+        -0.2501043239133634,
+        -0.1397049278463301
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 18,
+      "variant": "noscreen",
+      "mean": -0.06741859416029325,
+      "CI": [
+        -0.08099534237633965,
+        -0.05384184594424685
+      ],
+      "simultaneous_CI": [
+        -0.09239255107385948,
+        -0.04244463724672702
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 18,
+      "variant": "diff",
+      "mean": -0.011610166584439816,
+      "CI": [
+        -0.022831932297599528,
+        -0.0003884008712801059
+      ],
+      "simultaneous_CI": [
+        -0.03225221495677059,
+        0.009031881787890958
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 18,
+      "variant": "prewhite",
+      "mean": -0.005762870883359314,
+      "CI": [
+        -0.015676164027303978,
+        0.004150422260585349
+      ],
+      "simultaneous_CI": [
+        -0.02399802939913829,
+        0.012472287632419659
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 18,
+      "variant": "rawlow",
+      "mean": -0.017969996734934008,
+      "CI": [
+        -0.02978339418991189,
+        -0.006156599279956125
+      ],
+      "simultaneous_CI": [
+        -0.039700331152917614,
+        0.003760337683049595
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 19,
+      "variant": "split",
+      "mean": -0.12016582405291451,
+      "CI": [
+        -0.1396516106994855,
+        -0.10068003740634353
+      ],
+      "simultaneous_CI": [
+        -0.15600925197796434,
+        -0.08432239612786468
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 19,
+      "variant": "noscreen",
+      "mean": -0.048344902621222666,
+      "CI": [
+        -0.06400862838145903,
+        -0.0326811768609863
+      ],
+      "simultaneous_CI": [
+        -0.07715778226052519,
+        -0.019532022981920142
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 19,
+      "variant": "diff",
+      "mean": -0.01187928180583553,
+      "CI": [
+        -0.026603780946194363,
+        0.002845217334523302
+      ],
+      "simultaneous_CI": [
+        -0.03896448669094523,
+        0.015205923079274172
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 19,
+      "variant": "prewhite",
+      "mean": -0.006830511191457708,
+      "CI": [
+        -0.021642667544337097,
+        0.00798164516142168
+      ],
+      "simultaneous_CI": [
+        -0.034076958475249025,
+        0.020415936092333612
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 19,
+      "variant": "rawlow",
+      "mean": -0.010315244201874301,
+      "CI": [
+        -0.021957721328774917,
+        0.0013272329250263136
+      ],
+      "simultaneous_CI": [
+        -0.031731176611282,
+        0.011100688207533396
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 20,
+      "variant": "split",
+      "mean": -0.2891832100794259,
+      "CI": [
+        -0.3315273242295713,
+        -0.24683909592928047
+      ],
+      "simultaneous_CI": [
+        -0.3670737377301485,
+        -0.21129268242870325
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 20,
+      "variant": "noscreen",
+      "mean": -0.09842007720677322,
+      "CI": [
+        -0.17273162322736496,
+        -0.024108531186181476
+      ],
+      "simultaneous_CI": [
+        -0.2351135857676312,
+        0.038273431354084744
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 20,
+      "variant": "diff",
+      "mean": -0.04578175365536321,
+      "CI": [
+        -0.06432703409302726,
+        -0.02723647321769917
+      ],
+      "simultaneous_CI": [
+        -0.07989515306663217,
+        -0.011668354244094244
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 20,
+      "variant": "prewhite",
+      "mean": -0.001353892687939573,
+      "CI": [
+        -0.025549844476436122,
+        0.022842059100556977
+      ],
+      "simultaneous_CI": [
+        -0.045861505838962834,
+        0.04315372046308368
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 20,
+      "variant": "rawlow",
+      "mean": -0.11707365998661774,
+      "CI": [
+        -0.14468273434724563,
+        -0.08946458562598986
+      ],
+      "simultaneous_CI": [
+        -0.16785959359410965,
+        -0.06628772637912583
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 21,
+      "variant": "split",
+      "mean": -0.0773434759060715,
+      "CI": [
+        -0.09783848110135072,
+        -0.056848470710792284
+      ],
+      "simultaneous_CI": [
+        -0.1150433263080457,
+        -0.039643625504097314
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 21,
+      "variant": "noscreen",
+      "mean": -0.0307105374208883,
+      "CI": [
+        -0.048438016449176044,
+        -0.012983058392600551
+      ],
+      "simultaneous_CI": [
+        -0.06331961953639433,
+        0.0018985446946177265
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 21,
+      "variant": "diff",
+      "mean": -0.003242708038019183,
+      "CI": [
+        -0.018416209391182794,
+        0.011930793315144426
+      ],
+      "simultaneous_CI": [
+        -0.031153836902733167,
+        0.024668420826694803
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 21,
+      "variant": "prewhite",
+      "mean": 0.010165701058185287,
+      "CI": [
+        -0.009081807700250901,
+        0.029413209816621474
+      ],
+      "simultaneous_CI": [
+        -0.0252394229654413,
+        0.04557082508181188
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 21,
+      "variant": "rawlow",
+      "mean": -0.01087167616132876,
+      "CI": [
+        -0.024243924319802497,
+        0.0025005719971449795
+      ],
+      "simultaneous_CI": [
+        -0.03546946231991219,
+        0.013726109997254671
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 22,
+      "variant": "split",
+      "mean": -0.02783613742292948,
+      "CI": [
+        -0.05036743254435086,
+        -0.005304842301508097
+      ],
+      "simultaneous_CI": [
+        -0.06928167243728373,
+        0.013609397591424759
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 22,
+      "variant": "noscreen",
+      "mean": 0.001798797778631095,
+      "CI": [
+        -0.0011295640500352034,
+        0.004727159607297393
+      ],
+      "simultaneous_CI": [
+        -0.003587822122738828,
+        0.007185417680001018
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 22,
+      "variant": "diff",
+      "mean": -0.0017133341278236542,
+      "CI": [
+        -0.004704926573076314,
+        0.0012782583174290056
+      ],
+      "simultaneous_CI": [
+        -0.00721626455282689,
+        0.0037895962971795823
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 22,
+      "variant": "prewhite",
+      "mean": -0.003567899651679757,
+      "CI": [
+        -0.007000366958690824,
+        -0.00013543234466868942
+      ],
+      "simultaneous_CI": [
+        -0.009881804076246137,
+        0.002746004772886624
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 22,
+      "variant": "rawlow",
+      "mean": 0.0025389359996258075,
+      "CI": [
+        -0.001089443069250387,
+        0.006167315068502002
+      ],
+      "simultaneous_CI": [
+        -0.004135341308183545,
+        0.00921321330743516
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 23,
+      "variant": "split",
+      "mean": -0.19195919413313645,
+      "CI": [
+        -0.21754612338050355,
+        -0.16637226488576934
+      ],
+      "simultaneous_CI": [
+        -0.23902546202038866,
+        -0.14489292624588423
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 23,
+      "variant": "noscreen",
+      "mean": -0.11178888975741144,
+      "CI": [
+        -0.12931137999071035,
+        -0.09426639952411255
+      ],
+      "simultaneous_CI": [
+        -0.14402090210242818,
+        -0.0795568774123947
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 23,
+      "variant": "diff",
+      "mean": -0.02316351230139861,
+      "CI": [
+        -0.035844633549407784,
+        -0.010482391053389441
+      ],
+      "simultaneous_CI": [
+        -0.046489994506407326,
+        0.00016296990361010233
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 23,
+      "variant": "prewhite",
+      "mean": -0.006655565833071876,
+      "CI": [
+        -0.025733135325434593,
+        0.012422003659290843
+      ],
+      "simultaneous_CI": [
+        -0.04174809247761282,
+        0.028436960811469063
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 23,
+      "variant": "rawlow",
+      "mean": -0.01892762234699783,
+      "CI": [
+        -0.030800818382944954,
+        -0.007054426311050707
+      ],
+      "simultaneous_CI": [
+        -0.04076795417826874,
+        0.002912709484273083
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 24,
+      "variant": "split",
+      "mean": -0.04943557572564252,
+      "CI": [
+        -0.08173953032096384,
+        -0.01713162113032119
+      ],
+      "simultaneous_CI": [
+        -0.10885757850299721,
+        0.009986427051712175
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 24,
+      "variant": "noscreen",
+      "mean": -0.16581250508240625,
+      "CI": [
+        -0.26922446666478606,
+        -0.06240054350002647
+      ],
+      "simultaneous_CI": [
+        -0.3560352176059639,
+        0.024410207441151383
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 24,
+      "variant": "diff",
+      "mean": -0.009183691834456923,
+      "CI": [
+        -0.030787630702759042,
+        0.012420247033845198
+      ],
+      "simultaneous_CI": [
+        -0.04892338722209155,
+        0.03055600355317771
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 24,
+      "variant": "prewhite",
+      "mean": 0.021537153814877592,
+      "CI": [
+        0.0014081416560863154,
+        0.04166616597366887
+      ],
+      "simultaneous_CI": [
+        -0.015489465104972448,
+        0.05856377273472763
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 24,
+      "variant": "rawlow",
+      "mean": -0.13788056992533299,
+      "CI": [
+        -0.1734533849790594,
+        -0.10230775487160657
+      ],
+      "simultaneous_CI": [
+        -0.2033155280102173,
+        -0.07244561184044869
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 25,
+      "variant": "split",
+      "mean": -0.1262123136609306,
+      "CI": [
+        -0.1496681362982273,
+        -0.1027564910236339
+      ],
+      "simultaneous_CI": [
+        -0.16935848493806738,
+        -0.08306614238379385
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 25,
+      "variant": "noscreen",
+      "mean": -0.09668372887657686,
+      "CI": [
+        -0.12401092245294609,
+        -0.06935653530020763
+      ],
+      "simultaneous_CI": [
+        -0.14695115256926328,
+        -0.046416305183890436
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 25,
+      "variant": "diff",
+      "mean": 0.006032319706564899,
+      "CI": [
+        -0.007459487552604889,
+        0.019524126965734686
+      ],
+      "simultaneous_CI": [
+        -0.01878539126625931,
+        0.030850030679389108
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 25,
+      "variant": "prewhite",
+      "mean": -0.015415970016027004,
+      "CI": [
+        -0.038890449196791035,
+        0.008058509164737025
+      ],
+      "simultaneous_CI": [
+        -0.058596459357054695,
+        0.027764519325000684
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 25,
+      "variant": "rawlow",
+      "mean": -0.029145107001067316,
+      "CI": [
+        -0.05287689657425067,
+        -0.005413317427883962
+      ],
+      "simultaneous_CI": [
+        -0.07279890987427777,
+        0.014508695872143137
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 26,
+      "variant": "split",
+      "mean": -0.0007230885155136563,
+      "CI": [
+        -0.016724582734906217,
+        0.015278405703878905
+      ],
+      "simultaneous_CI": [
+        -0.030157281506989767,
+        0.028711104475962455
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 26,
+      "variant": "noscreen",
+      "mean": -0.0010287804914562936,
+      "CI": [
+        -0.004906802547545294,
+        0.0028492415646327067
+      ],
+      "simultaneous_CI": [
+        -0.008162267405808834,
+        0.006104706422896247
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 26,
+      "variant": "diff",
+      "mean": 0.0023321951630775133,
+      "CI": [
+        -0.0012686941012284487,
+        0.005933084427383476
+      ],
+      "simultaneous_CI": [
+        -0.004291515603762336,
+        0.008955905929917364
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 26,
+      "variant": "prewhite",
+      "mean": -0.0010938785777617976,
+      "CI": [
+        -0.004995336748457554,
+        0.002807579592933959
+      ],
+      "simultaneous_CI": [
+        -0.008270475411153623,
+        0.006082718255630027
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 26,
+      "variant": "rawlow",
+      "mean": 0.0002900274513352896,
+      "CI": [
+        -0.0015750693369897513,
+        0.0021551242396603307
+      ],
+      "simultaneous_CI": [
+        -0.00314075332842526,
+        0.003720808231095839
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 27,
+      "variant": "split",
+      "mean": -0.2989864087009403,
+      "CI": [
+        -0.321215818137162,
+        -0.2767569992647186
+      ],
+      "simultaneous_CI": [
+        -0.3398766354798447,
+        -0.25809618192203587
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 27,
+      "variant": "noscreen",
+      "mean": -0.11022166209280908,
+      "CI": [
+        -0.12658500702196368,
+        -0.09385831716365446
+      ],
+      "simultaneous_CI": [
+        -0.14032146690023242,
+        -0.08012185728538573
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 27,
+      "variant": "diff",
+      "mean": -0.019386069315096777,
+      "CI": [
+        -0.0358629141840848,
+        -0.002909224446108756
+      ],
+      "simultaneous_CI": [
+        -0.04969465332074829,
+        0.010922514690554733
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 27,
+      "variant": "prewhite",
+      "mean": 0.0038675473734838734,
+      "CI": [
+        -0.016039980731191665,
+        0.023775075478159415
+      ],
+      "simultaneous_CI": [
+        -0.032751659319483234,
+        0.04048675406645098
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 27,
+      "variant": "rawlow",
+      "mean": -0.005789950304767741,
+      "CI": [
+        -0.01548402615532682,
+        0.003904125545791339
+      ],
+      "simultaneous_CI": [
+        -0.023621866221317425,
+        0.012041965611781943
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 28,
+      "variant": "split",
+      "mean": -0.0012730723416164102,
+      "CI": [
+        -0.030647197935550898,
+        0.02810105325231808
+      ],
+      "simultaneous_CI": [
+        -0.05530575640432685,
+        0.05275961172109403
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 28,
+      "variant": "noscreen",
+      "mean": -0.11001390328927133,
+      "CI": [
+        -0.18461118753201033,
+        -0.03541661904653233
+      ],
+      "simultaneous_CI": [
+        -0.24723301738798778,
+        0.02720521080944513
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 28,
+      "variant": "diff",
+      "mean": -0.015503700262858033,
+      "CI": [
+        -0.058979377850294515,
+        0.027971977324578453
+      ],
+      "simultaneous_CI": [
+        -0.09547569956483175,
+        0.06446829903911568
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 28,
+      "variant": "prewhite",
+      "mean": 0.02202191440904292,
+      "CI": [
+        0.003601098788896518,
+        0.04044273002918933
+      ],
+      "simultaneous_CI": [
+        -0.011862536292234757,
+        0.0559063651103206
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 28,
+      "variant": "rawlow",
+      "mean": -0.16095003246990847,
+      "CI": [
+        -0.21648221338607235,
+        -0.10541785155374458
+      ],
+      "simultaneous_CI": [
+        -0.26309955100318355,
+        -0.058800513936633395
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 29,
+      "variant": "split",
+      "mean": -0.23444284009437447,
+      "CI": [
+        -0.2652187544489072,
+        -0.20366692573984174
+      ],
+      "simultaneous_CI": [
+        -0.29105406590743754,
+        -0.1778316142813114
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 29,
+      "variant": "noscreen",
+      "mean": -0.10390131243179916,
+      "CI": [
+        -0.1322430095099333,
+        -0.07555961535366501
+      ],
+      "simultaneous_CI": [
+        -0.15603488008904656,
+        -0.05176774477455177
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 29,
+      "variant": "diff",
+      "mean": 0.015922265674916964,
+      "CI": [
+        -0.015041729789604559,
+        0.04688626113943849
+      ],
+      "simultaneous_CI": [
+        -0.04103492880916888,
+        0.07287946015900282
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 29,
+      "variant": "prewhite",
+      "mean": 0.0003385860010918881,
+      "CI": [
+        -0.03577579528194538,
+        0.036452967284129154
+      ],
+      "simultaneous_CI": [
+        -0.06609256435762909,
+        0.06676973635981287
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 29,
+      "variant": "rawlow",
+      "mean": -0.04574496420199574,
+      "CI": [
+        -0.0855914239019249,
+        -0.005898504502066582
+      ],
+      "simultaneous_CI": [
+        -0.11904114321841469,
+        0.027551214814423214
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 30,
+      "variant": "split",
+      "mean": -0.2046465423284379,
+      "CI": [
+        -0.24021485752801475,
+        -0.16907822712886106
+      ],
+      "simultaneous_CI": [
+        -0.27007322308786397,
+        -0.13921986156901184
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 30,
+      "variant": "noscreen",
+      "mean": -0.043581419193809326,
+      "CI": [
+        -0.058024506084899764,
+        -0.029138332302718888
+      ],
+      "simultaneous_CI": [
+        -0.07014897601795902,
+        -0.017013862369659627
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 30,
+      "variant": "diff",
+      "mean": -0.021195692395160743,
+      "CI": [
+        -0.03502491394286714,
+        -0.0073664708474543445
+      ],
+      "simultaneous_CI": [
+        -0.04663406523560179,
+        0.004242680445280308
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 30,
+      "variant": "prewhite",
+      "mean": -0.02461023509708766,
+      "CI": [
+        -0.04396407671362128,
+        -0.005256393480554043
+      ],
+      "simultaneous_CI": [
+        -0.060210954720953995,
+        0.010990484526778678
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 30,
+      "variant": "rawlow",
+      "mean": -0.07348862126517708,
+      "CI": [
+        -0.10634279746467776,
+        -0.0406344450656764
+      ],
+      "simultaneous_CI": [
+        -0.1339227375778957,
+        -0.013054504952458475
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 31,
+      "variant": "split",
+      "mean": -0.0281392436550922,
+      "CI": [
+        -0.03816338907470518,
+        -0.018115098235479223
+      ],
+      "simultaneous_CI": [
+        -0.04657831108280335,
+        -0.00970017622738105
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 31,
+      "variant": "noscreen",
+      "mean": -0.008869990212444636,
+      "CI": [
+        -0.016370379809098064,
+        -0.0013696006157912074
+      ],
+      "simultaneous_CI": [
+        -0.02266669643701729,
+        0.00492671601212802
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 31,
+      "variant": "diff",
+      "mean": -0.0019013345012845614,
+      "CI": [
+        -0.009977131154440086,
+        0.006174462151870962
+      ],
+      "simultaneous_CI": [
+        -0.016756482026246154,
+        0.01295381302367703
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 31,
+      "variant": "prewhite",
+      "mean": 0.0032431622134830593,
+      "CI": [
+        -0.007435033516550934,
+        0.013921357943517051
+      ],
+      "simultaneous_CI": [
+        -0.016399008049445562,
+        0.02288533247641168
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 31,
+      "variant": "rawlow",
+      "mean": -0.01884461461348999,
+      "CI": [
+        -0.028907537656888443,
+        -0.008781691570091538
+      ],
+      "simultaneous_CI": [
+        -0.03735501213366647,
+        -0.0003342170933135144
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 32,
+      "variant": "split",
+      "mean": -0.03494703603161207,
+      "CI": [
+        -0.06244841746994825,
+        -0.007445654593275886
+      ],
+      "simultaneous_CI": [
+        -0.08553487224800481,
+        0.015640800184780673
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 32,
+      "variant": "noscreen",
+      "mean": -0.15393591396978293,
+      "CI": [
+        -0.2444828706715047,
+        -0.06338895726806114
+      ],
+      "simultaneous_CI": [
+        -0.3204938967311256,
+        0.012622068791559776
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 32,
+      "variant": "diff",
+      "mean": -0.009544583001091492,
+      "CI": [
+        -0.05595958679204391,
+        0.03687042078986093
+      ],
+      "simultaneous_CI": [
+        -0.09492337079125147,
+        0.07583420478906848
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 32,
+      "variant": "prewhite",
+      "mean": 0.046282000493205994,
+      "CI": [
+        0.007741354334472601,
+        0.08482264665193939
+      ],
+      "simultaneous_CI": [
+        -0.024612179856372332,
+        0.11717618084278432
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 32,
+      "variant": "rawlow",
+      "mean": -0.15218329051913154,
+      "CI": [
+        -0.20510221729327519,
+        -0.0992643637449879
+      ],
+      "simultaneous_CI": [
+        -0.2495258187990353,
+        -0.05484076223922778
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 33,
+      "variant": "split",
+      "mean": -0.20932473194166407,
+      "CI": [
+        -0.24364701706608222,
+        -0.17500244681724592
+      ],
+      "simultaneous_CI": [
+        -0.2724593836441439,
+        -0.14619008023918423
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 33,
+      "variant": "noscreen",
+      "mean": -0.1659250486107528,
+      "CI": [
+        -0.21466039296393152,
+        -0.11718970425757408
+      ],
+      "simultaneous_CI": [
+        -0.25557202229518683,
+        -0.07627807492631875
+      ],
+      "verdict": "loss"
+    },
+    {
+      "cell": 33,
+      "variant": "diff",
+      "mean": 0.034598559925353135,
+      "CI": [
+        0.004922415624845869,
+        0.0642747042258604
+      ],
+      "simultaneous_CI": [
+        -0.019989677061003998,
+        0.08918679691171028
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 33,
+      "variant": "prewhite",
+      "mean": 0.018943663160424305,
+      "CI": [
+        -0.016388710906035858,
+        0.05427603722688447
+      ],
+      "simultaneous_CI": [
+        -0.046049012077294414,
+        0.08393633839814302
+      ],
+      "verdict": "none"
+    },
+    {
+      "cell": 33,
+      "variant": "rawlow",
+      "mean": -0.06525498292794295,
+      "CI": [
+        -0.1071593722548852,
+        -0.02335059360100069
+      ],
+      "simultaneous_CI": [
+        -0.14233665203509166,
+        0.011826686179205764
+      ],
+      "verdict": "none"
+    }
+  ],
+  "near_nominal": {
+    "current": false,
+    "split": false,
+    "noscreen": false
+  }
+}
